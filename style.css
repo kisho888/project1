@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+nav{
+    padding: 20px 10%;
+    height: 15vh;  
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 500;
+}
+/* main setion */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+justify-content: flex-end;
+}
+.leftmain{
+    width: 40%;
+}
+.leftmain h1{
+    font-size: 67px;   
+
+}
+.leftmain p{
+    margin: 5% 0;
+    font-weight: 500;
+}
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+}
+.rightmain{
+    width: 60;
+}
